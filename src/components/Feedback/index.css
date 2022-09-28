@@ -1,0 +1,131 @@
+/* Write your CSS code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #ffc0bb, #ffebeb);
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-card {
+  background-color: #ffffff;
+  width: 90%;
+  max-width: 606px;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-card {
+    padding: 32px;
+  }
+}
+
+.feedback-question-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.thank-you-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  color: #0f172a;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 28px;
+  }
+}
+.emojis-list-container {
+  padding: 0px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.emoji-item {
+  list-style-type: none;
+}
+.image {
+  height: 50px;
+  width: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    height: 80px;
+    width: 80px;
+  }
+}
+.emoji-heading {
+  font-size: 10px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #0f172a;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-heading {
+    font-size: 14px;
+  }
+}
+.button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.feedback-image {
+  height: 50px;
+  width: 55px;
+}
+
+@media screen and (min-width: 768px) {
+  .feedback-image {
+    height: 80px;
+    width: 85px;
+  }
+}
+.feedback-heading {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  color: #0f172a;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .feedback-heading {
+    font-size: 28px;
+  }
+}
+.feedback-description {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #1e293b;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .feedback-description {
+    font-size: 16px;
+  }
+}
